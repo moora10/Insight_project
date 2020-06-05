@@ -9,13 +9,6 @@ Created on Wed Jun  3 10:22:20 2020
 
 import streamlit as st
 import pandas as pd
-import numpy as np
-
-import seaborn as sns
-import statsmodels.formula.api as smf
-from sklearn.linear_model import LinearRegression
-from sklearn import metrics
-import math 
 
 st.write("""
          # Amyloid Augury
