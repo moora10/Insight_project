@@ -43,8 +43,7 @@ CD5 = st.slider('CD5 (ng/mL)', 3.1, 4.0, 3.8)
 
 #import model 
 import pickle
-filename = 'logistic_model.sav'
-loaded_model = pickle.load(open("https://github.com/moora10/Insight_project/blob/master/logistic_model.sav", 'rb'))
+loaded_model = open("logistic_model.sav", 'rb'))
 
 
 X_test = {'PTGENDER': PTGENDER, 'PTEDUCAT': PTEDUCAT, 'apoe_count': apoe_count, 
