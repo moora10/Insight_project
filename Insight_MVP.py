@@ -42,8 +42,7 @@ Insulin = st.slider('Insulin like growth factor binding protein (ng/mL)', 1.5, 2
 CD5 = st.slider('CD5 (ng/mL)', 3.1, 4.0, 3.8)
 
 #import model 
-import pickle
-loaded_model = open("logistic_model.sav", 'rb'))
+loaded_model = open("logistic_model.sav")
 
 
 X_test = {'PTGENDER': PTGENDER, 'PTEDUCAT': PTEDUCAT, 'apoe_count': apoe_count, 
