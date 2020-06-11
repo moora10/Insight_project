@@ -9,6 +9,7 @@ Created on Wed Jun  3 10:22:20 2020
 
 import streamlit as st
 import pandas as pd
+from sklearn.linear_model import LogisticRegression
 
 st.write("""
          # Amyloid Augury
